@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+body {
+	padding: 10px;
+}
+
+content {
+	display: block;
+	border: 1px solid green;
+	background: aqua;
+	width: 100%;
+	min-height: 100px;
+	padding-right: 5px;
+
+	
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+
+
+}
+
+.inner-content {
+	background: darkgrey;
+	width: calc(75% - 3px);
+	display: inline-block;
+
+	
+}
+
+.top-side {
+	display: inline-block;
+	width: 25%;
+	height: 20%;
+	background: bisque;
+	margin-right: 3px;
+
+	float: left;
+}
+
+ul {
+	padding: 10px;
+	padding-left: 30px;
+}

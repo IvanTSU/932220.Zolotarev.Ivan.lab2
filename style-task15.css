@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+body {
+	padding: 10px;
+}
+
+content {
+	width: 100%;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	background: indianred;
+}
+
+#box {
+	display: inline-block;
+	background: aquamarine;
+	width: 230px;
+	height: 100px;
+	margin: 10px;
+}

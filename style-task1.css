@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	color: white;
+	font-size: 30px;
+	color: black;
+	font-size: 15px;
+}
+
+content {
+	display: block;
+	width: 100%;
+	height: 84%;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+.wrapper {
+	height: 100vh;
+}
+
+.header {
+	padding: 10px;
+	background: #EAEAEA;
+	height: 12%;
+}
+
+.cencol {
+	display: block;
+	background: white;
+	height: 100%;
+	width: calc(100% - 200px);
+	float: left;
+	padding: 5px;
+}
+
+.leftcol {
+	display: block;
+	background: #C8FC98;
+	height: 100%;
+	width: 200px;
+	float: left;
+	padding: 5px;
+}
+
+.footer {
+	clear: both;
+	background: black;
+	height: 4%;
+	padding-top: 5px;
+}
+
+.adres {
+	text-align:center;
+	color: yellow;
+}
+
+.red-word {
+	color: red;
+	font-style: italic;
+}
+

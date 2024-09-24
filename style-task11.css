@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	padding: 5px;
+}
+
+header {
+	width: 100%;
+	display: block;
+}
+
+.inner-header {
+	display: block;
+	position: relative;
+	background: aqua;
+	border: 1px solid green;
+	width: 100%;
+	height: 267px;
+}
+
+.txt {
+	float: left;
+}
+
+#img {
+	float: right;
+}

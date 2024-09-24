@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+body {
+	padding: 10px;
+}
+
+content {
+	display: block;
+	border: 1px solid green;
+	background: aqua;
+	width: 100%;
+	min-height: 100px;
+
+	
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+
+
+}
+
+.inner {
+	background: darkgrey;
+	width: 80%;
+
+	display: inline-block;
+
+	
+}
+
+.sidebar {
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+
+	float: left;
+}
+
+.top-side {
+	height: 20%;
+	background: bisque;
+	padding: 10px;
+	padding-left: 40px;
+}
+
+td {
+	vertical-align: top;
+}
+
+#img {
+	max-width: 100%;
+	height: auto;
+}

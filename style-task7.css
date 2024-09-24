@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+content {
+	display: block;
+	height: 100%;
+}
+
+.box {
+	display: block;
+	height: 80px;
+	width: 120px;
+	background: blue;
+	color: white;
+}
+
+#first-block {
+	position: static;
+	background: blueviolet;
+}
+
+#sec-block {
+	position: relative;
+	background: darkred;
+}
+
+#third-block {
+	left: 30px;
+	bottom: 20px;
+	position: relative;
+	background: peru;
+}
+
+#fourth-block {
+	height: 300px;
+	width: 500px;
+	position: relative;
+	background: indianred;
+	z-index: 1;
+}
+
+#fifth-block {
+	height: 160px;
+	width: 240px;
+	position: absolute;
+	background: indigo;
+	bottom: 50px;
+	right: 0;
+	z-index: 2;
+}
+
+#sixth-block {
+	height: 100px;
+	width: 80px;
+	position: fixed;
+	background: forestgreen;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
